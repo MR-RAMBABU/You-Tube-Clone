@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    display: flex;
+}
+.nev_content{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(242, 241, 239);
+    width: 100%;
+    display: flex;
+}
+.icon{
+    gap: 28px;
+    margin-right: 20px;
+    display: flex;
+}
+.nevbar1{
+    margin-top: 13px;
+    align-items: center;
+    
+}
+.avtar{
+
+    height: 50px;
+    width: 50px;
+    background: url(rambabu4.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+.nevbar2{
+    padding-left: 34px;
+    max-width: 30%; 
+    gap: 1.25rem;
+    margin-top: 20px;
+    display: flex;
+}
+.button p{
+    padding: 5px;
+    background-color: #EBF4FA;
+    border-radius: 40px;
+}
+.search{
+    margin: auto;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem; 
+    margin-top: 20px;
+    justify-content: center; 
+}
+
+.card_con{
+    height: 200px;
+    width: 300px;    
+}
+.card_con p,h3{
+    padding-left: 2%;
+    background-color:#EBF4FA ;
+}
+.card_img{
+    border-radius: 5px;
+    height: 150px;
+    width: 300px;
+    background: url(card.png);
+    background-size: cover;
+    background-position: center;
+}
+.nev_con{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 13vh;
+    background-color: black;
+}
+.nev_con h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
